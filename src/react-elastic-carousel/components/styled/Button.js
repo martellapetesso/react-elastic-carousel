@@ -16,8 +16,6 @@ export default styled.button`
   cursor: pointer;
   outline: none;
   &:hover {
-    color: #fff;
-    background-color: rgba(103, 58, 183, 1);
-    box-shadow: 0 0 2px 0px #333;
+    color: #D8D8D8;
   }
 `;
