@@ -1,9 +1,11 @@
 import styled from "styled-components";
 
+const inActiveDot = "#D8D8D8";
+
 export default styled.button`
   transition: all 0.3s ease;
-  font-size: 1.6em;
-  // background-color: rgba(103, 58, 183, 0.1);
+  font-size: 1.6rem;
+  background-color: transparent;
   color: #333;
   // box-shadow: 0 0 2px 0px #333;
   // border-radius: 50%;
@@ -17,5 +19,7 @@ export default styled.button`
   outline: none;
   &:hover {
     color: #D8D8D8;
+    background-color: transparent;
+    // box-shadow: 0 0 2px 0px #333;
   }
 `;
