@@ -20,8 +20,7 @@ const Dot = styled.div`
   font-size: 1.3em;
   content: "";
   height: 8px;
-  width: 8x;
-  // box-shadow: ${({ active }) => (active ? activeBoxShadow : boxShadow)};
+  width: 8px;
   border-radius: 50%;
   &:hover {
     cursor: pointer;
