@@ -19,9 +19,9 @@ const Dot = styled.div`
     active ? `${activeDot}` : `${inActiveDot}`};
   font-size: 1.3em;
   content: "";
-  height: 5px;
-  width: 5px;
-  box-shadow: ${({ active }) => (active ? activeBoxShadow : boxShadow)};
+  height: 8px;
+  width: 8x;
+  // box-shadow: ${({ active }) => (active ? activeBoxShadow : boxShadow)};
   border-radius: 50%;
   &:hover {
     cursor: pointer;
